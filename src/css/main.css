@@ -1,0 +1,88 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App h1 {
+  display: inline;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.addTodos {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  width:500px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+
+  align-self: center;
+}
+.todo-input:focus {
+  outline: none;
+}
+
+.add-btn {
+  margin-right: 1rem;
+  padding-inline: 1em;
+  display: flex;
+  border-radius: 5px;
+  font-size: large;
+  background-color: #4d90fe;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-btn:focus {
+  outline: none;
+}
+
+.displaytodos {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+
+.card {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  margin: 1rem;
+  height: 3rem;
+  width: 38rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card textarea {
+  border-radius: 5px;
+  width: 25rem;
+  border: none;
+  font-size: x-large;
+  font: Calbri;
+  color: black;
+}
+
+.checkbox1 {
+  transform: scale(2);
+}
+
+.card .btns button {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  align-self: center;
+}
+
